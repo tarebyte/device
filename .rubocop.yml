@@ -1,0 +1,6 @@
+inherit_gem:
+  rubocop-github:
+    - config/default_edge.yml
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
