@@ -1,0 +1,66 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.3.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    ast (2.4.0)
+    byebug (11.1.3)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.6)
+    dotenv (2.7.5)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    jaro_winkler (1.5.4)
+    method_source (1.0.0)
+    minitest (5.14.1)
+    parallel (1.19.1)
+    parser (2.7.1.3)
+      ast (~> 2.4.0)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (~> 0.13.0)
+    rack (2.2.3)
+    rainbow (3.0.0)
+    rexml (3.2.4)
+    rubocop (0.82.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-github (0.16.0)
+      rubocop (<= 0.82.0)
+      rubocop-performance (~> 1.0)
+      rubocop-rails (~> 2.0)
+    rubocop-performance (1.6.0)
+      rubocop (>= 0.71.0)
+    rubocop-rails (2.5.2)
+      activesupport
+      rack (>= 1.1)
+      rubocop (>= 0.72.0)
+    ruby-progressbar (1.10.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
+    unicode-display_width (1.7.0)
+    zeitwerk (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  pry-byebug
+  rubocop-github
+
+BUNDLED WITH
+   2.1.4
